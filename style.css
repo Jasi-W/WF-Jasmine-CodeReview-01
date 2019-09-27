@@ -1,0 +1,197 @@
+
+p	{ font-family: calibri; color: white; font-size: 1em; }
+h1	{ font-family: calibri; color: white; font-size: 2em; }
+h2	{ font-family: calibri; color: white; font-size: 1.5em; }
+
+/*
+a:hover   { color: lightgray; color: white; }
+a:active  { color: dimgray; background-color: white; }
+*/
+
+/* 
+* {
+	border: 1px dashed red;
+}
+*/
+
+* {
+	box-sizing: border-box;
+	-webkit-user-select: none;
+    -moz-user-select: -moz-none;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	height: 120px;
+	background-color: DarkRed;
+}
+
+.banner {
+	margin: 5px 10px 0 10px;
+	padding: 0 10px;
+	background-color: lightgray;
+}
+
+.banner h2 {
+	justify-content: center;
+	color: dimgray;
+}
+
+nav {
+	font-family: calibri; 
+	font-size: 1.2em;
+	height: 40px;
+	background-color: black;
+}
+
+nav a {
+	padding: 5px 10px;
+	text-decoration: none;
+	font-family: calibri;
+	font-size: 1em;
+	color: white;
+}
+
+main {
+	width: 100%;
+	height: auto;
+}
+
+article {
+	width: 100%;
+}
+
+section {
+	
+}
+
+aside {
+	width: 18%;
+	height: 520px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+aside img {
+	width: 100%;
+	height: 520px;
+}
+
+footer {
+	width: 100%;
+	height: 150px;
+	padding: 10px;
+	background-color: black;
+	clear: both;
+}
+
+
+/*-- FLEXBOX --*/
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	justify-content: space-between;
+	width: 80%;
+	height: auto;
+	float: left;
+}
+
+
+/*-- ITEM --*/
+.item {
+	position: relative;
+	width: 31%;
+	height: 250px;
+	margin: 10px;
+	background-color: black;
+}
+
+.item img {
+	width: 100%;
+	height: 200px;
+	display: block;
+	object-fit: cover;
+}
+
+.item span {
+	position: absolute;
+	width: 100%;
+	height: 4em;
+	bottom: 0;
+	left: 0;
+	background-color: black;
+	padding: 10px 0 10px 6px;
+	color: white;
+}
+
+.item2 {
+	position: relative;
+	width: 47%;
+	height: 250px;
+	margin: 10px;
+	background-color: black;
+}
+
+.item2 img {
+	width: 100%;
+	height: 200px;
+	display: block;
+	object-fit: cover;
+}
+
+.item2 span {
+	position: absolute;
+	width: 100%;
+	height: 4em;
+	bottom: 0;
+	left: 0;
+	background-color: black;
+	padding: 10px 0 10px 6px;
+	color: white;
+}
+
+/*-- ALLGEMEIN --*/
+.center {
+	display: flex;
+	flex-direction: row;
+	align-items: left;
+}
+
+.centered {
+	text-align: center;
+	clear: both;
+}
+
+.center_left { 
+	float: left;
+	margin: 35px 10px;
+}
+
+.center_right {
+	float: right;
+	margin: 20px;
+}
+
+.right {
+	float: right;
+}
+
+
+.black {
+	color: black;
+	margin: 0 10px;
+}
+
+.banner-3 {
+	text-align: center;
+	width: 100%;
+}
+
+.banner-3 img {
+	width: 80%;
+	margin: 10px 0;
+}
+
